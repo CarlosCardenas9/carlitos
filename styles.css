@@ -1,0 +1,113 @@
+body.login-page {
+  background-color: #000000;
+  background-image: url(https://img.freepik.com/foto-gratis/conduccion-automoviles-deportivos-carretera-asfaltada-noche-ia-generativa_188544-8052.jpg?t=st=1727875334~exp=1727878934~hmac=6e447efc62cb4206086635bddb678ef018c928005da19f88d888545509bf78ad&w=900);
+}
+
+body{
+  background-color: #d1d1d1;
+}
+
+.form {
+  --bg-light: #efefef;
+  --bg-dark: #707070;
+  --clr: #58bc82;
+  --clr-alpha: #9c9c9c60;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.form .input-span {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
+  width: 100%;
+  border: none;
+  background-color: var(--clr-alpha);
+  outline: 2px solid var(--bg-dark);
+}
+
+.form input[type="email"]:focus,
+.form input[type="password"]:focus {
+  outline: 2px solid var(--clr);
+}
+
+.label {
+  align-self: flex-start;
+  color: var(--clr);
+  font-weight: 600;
+}
+
+.form .submit {
+  padding: 1rem 0.75rem;
+  width: 100%;
+  border-radius: 3rem;
+  background-color: var(--bg-dark);
+  color: var(--bg-light);
+  border: none;
+  cursor: pointer;
+  transition: all 300ms;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.form .submit:hover {
+  background-color: var(--clr);
+  color: var(--bg-dark);
+}
+
+.span {
+  text-decoration: none;
+  color: var(--bg-dark);
+}
+
+.span a {
+  color: var(--clr);
+}
+
+.input-span input {
+  border: 2px solid #fff; /* White border */
+  border-radius: 5px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.input-span input:hover {
+  border-color: #0ff; /* Cyan border on hover */
+  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff; /* Neon glow */
+}
+
+.submit {
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #0ff; /* Change background to cyan on hover */
+  color: #000; /* Keep text black */
+  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff; /* Neon glow */
+}
+
+#dynamic-text {
+  color: #58bc82; /* Color verde neón */
+  font-size: 2rem; /* Ajusta el tamaño del texto */
+  font-weight: 600; /* Negrita */
+  font-family: 'Roboto', sans-serif; /* Fuente */
+  text-shadow: 0 0 10px #58bc82, 0 0 20px #58bc82; /* Efecto de neón */
+}

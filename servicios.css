@@ -1,0 +1,110 @@
+/* Estilo global de la página */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Estilo específico para las tarjetas en la sección de servicios */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+/* Carousel controls styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+/* Estilo para el fondo */
+body {
+    background-color: #d1d1d1;
+}
+
+/* Encabezado */
+h2 {
+    color: #343a40;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px #fff;
+}
+footer {
+    background-color: #212529;
+    color: #f8f9fa;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer p, footer ul li {
+    font-size: 14px;
+    color: #ced4da;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #ced4da;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover {
+    color: #28a745;
+}
+
+footer .social-icons a {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #28a745;
+}
+
+footer .form-control {
+    background-color: #343a40;
+    border: 1px solid #495057;
+    color: #f8f9fa;
+}
+
+footer .form-control:focus {
+    border-color: #28a745;
+    box-shadow: none;
+}
+
+footer .btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+footer .btn-success:hover {
+    background-color: #218838;
+}
